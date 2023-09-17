@@ -12,28 +12,6 @@
   <name>my-web-app Maven Webapp</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
-<repositories>
-  <repository>
-    <id>nexus</id>
-    <url>http://16.16.183.212:8081/repository/ashokit-remote-repo/</url>
-    </repository>
-</repositories>
- 
- <distributionManagement>  
-
-	<repository>
-		<id>nexus</id>
-		<name>Ashok IT Releases Nexus Repo</name>
-		<url>http://16.16.183.212:8081/repository/ashokit-release-repo/</url>
-	</repository>
-	
-	<snapshotRepository>
-		<id>nexus</id>
-		<name>Ashok IT Snapshots Nexus Repo</name>
-		<url>http://16.16.183.212:8081/repository/ashokit-snapshot-repo/</url>
-	</snapshotRepository>
-	
-  </distributionManagement>
   <dependencies>
   <dependencies>
     <dependency>
